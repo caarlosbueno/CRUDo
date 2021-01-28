@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("Fuentes/HelveticaNeue Light.ttf");
+}
+
+*
+{
+	font-family:"HelveticaNeue";
+	margin:0;
+	padding:0;
+}
+
+header
+{
+	background-color:black;
+	color:white;
+	font-size:30px;
+	text-align:center;
+}
+
+main
+{
+	margin-top:6%;
+}
+
+
+button
+{
+	background-color:black;
+	color:white;
+	padding:2px;
+	width:70%;
+	border-radius:10px;
+	font-weight:bold;
+}
+
+#volver
+{
+	margin-top:6%;
+}
+
+footer
+{
+	background-color:black;
+	color:white;
+	text-align:right;
+	position:absolute;
+	bottom:0px;
+	width:100%;
+	height:5%;
+	padding-top:1%;
+}

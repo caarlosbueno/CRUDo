@@ -10,6 +10,17 @@
 	padding:0;
 }
 
+#borde{
+	width:65%;
+	border:1px solid black;
+	margin-right: 40px;
+}
+
+.col-xl{
+	float: left;
+	margin-right: 35px;
+}
+
 header
 {
 	background-color:black;
@@ -37,6 +48,12 @@ button
 #volver
 {
 	margin-top:6%;
+}
+
+#botonvolver
+{
+	width:10%;
+	margin:auto;
 }
 
 footer

@@ -1,0 +1,97 @@
+body{
+    background-color:white;
+}
+
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url("Fuentes/HelveticaNeue Light.ttf");
+}
+
+@font-face {
+    font-family: "HelveticaNeue2";
+    src: url("Fuentes/Helvetica Neu Bold.ttf");
+}
+
+*{
+    font-family:"HelveticaNeue";
+    margin:0;
+    padding:0;
+}
+
+main{
+    margin-top:3%;
+}
+
+header{
+    background-color:black;
+    color:white;
+    font-size:30px;
+    text-align:center;
+}
+
+button{
+    background-color:black;
+    color:white;
+    padding:2px;
+    margin-right:100px;
+    border-radius:20px;
+    font-weight:bold;
+    border:0;
+}
+
+h2{
+    font-family: "HelveticaNeue2";
+}
+
+div{
+    margin-left: 6%;
+    margin-right:6%;
+    margin-bottom: 3%;
+}
+footer{
+    background-color:black;
+    color:white;
+    bottom:0px;
+    width:100%;
+    padding-top:1%;
+}
+.tg {
+    border-collapse:collapse;
+    border-spacing:0;
+    margin:0 auto;
+}
+.tg td{
+    border-bottom-width:1px;
+    border-color:black;
+    border-style:solid;
+    border-top-width:1px;
+    border-width:0px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+.tg th{
+    border-bottom-width:1px;
+    border-color:black;
+    border-style:solid;
+    border-top-width:1px;
+    border-width:0px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+.tg .tg-1wig{
+    font-weight:bold;
+    text-align:left;
+    vertical-align:top;
+}
+.tg .tg-0lax{
+    text-align:left;
+    font-family:"HelveticaNeue";
+    vertical-align:top
+}

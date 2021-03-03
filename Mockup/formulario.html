@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>UBER</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<script src="cookies.js"></script>
+	<link rel="stylesheet" href="estilo.css" type="text/css"/>
+</head>
+<body>
+	<header>
+		<img src="Imagen/uber.jpg" alt="Logotipo de Uber">
+	</header>
+	<main>
+		<form class="container">
+			<div class="col-xs-4 col-sm">	
+				<label for="Entero">Entero</label>
+				<input type="number" id="Entero" name="Entero" placeholder="Entero"/>
+			</div>
+			<div class="col-xs-4 col-sm">	
+				<label for="Real">Real</label>
+				<input type="number" id="Real" name="Real" placeholder="Real"/>
+			</div>
+			<div class="col-xs-4 col-sm">	
+				<label for="Texto">Texto</label>
+				<input type="text" id="Texto" name="Texto" placeholder="Texto"/>
+			</div>
+			<div class="col-xs-4 col-sm">	
+				<label for="Fecha">Fecha</label>
+				<input type="text" id="Fecha" name="Fecha" placeholder="Fecha"/>
+			</div>
+			<div class="col-xs-4 col-sm">	
+				<label for="Booleano">Booleano</label>
+				<fieldset id="Booleano">
+					<label for="Verdadero">Verdadero</label>
+					<input type="radio" id="Verdadero" name="Verdadero" checked placeholder="Si"/>
+					<label for="Falso">Falso</label>
+					<input type="radio" id="Falso" name="Falso" placeholder="No"/>
+				</fieldset>
+			</div>
+			<div class="col-xs-4 col-sm">	
+				<div>
+					<input type="submit" value="Acceder"/>
+				</div>
+			</div>
+			<div class="row" id="volver">
+				<button id="botonvolver"><a href="home.html">Volver</a></button>
+			</div>
+		</form>
+	</main>
+	<div class="alert text-center cookiealert" role="alert">
+		Con su consentimiento, nosotros y nuestros socios usamos cookies o tecnologías similares para almacenar, acceder y procesar datos personales como su visita en este sitio web. Puede retirar otorgar su consentimiento u oponerse al procesamiento tratamiento de datos basado en intereses legítimos en cualquier momento haciendo clic en nuestra <a href="avisoslegales.html" target="_blank">Política de Cookies</a> en este sitio web.
+		<button type="button" id="botoncookie"class="btn btn-primary btn-sm acceptcookies">
+			Aceptar
+		</button>
+	</div>
+	<script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
+	<footer>
+		<a href="https://www.uber.com"><img src="Imagen/uber.jpg" alt="Logotipo de Uber"></a>
+		<a href="https://www.facebook.com"><img src="Imagen/facebook.png" alt="Enlace Facebook"></a>
+		<a href="https://www.instagram.com"><img src="Imagen/instagram.jpg" alt="Enlace Instagram"></a>
+		<a href="https://www.twitter.com"><img src="Imagen/twitter.png" alt="Enlace Twitter"></a>
+		<a href="https://www.w3.org/WAI/WCAG2AAA-Conformance" title="Explanation of WCAG 2 Level AAA conformance">
+			<img height="32" width="88" src="https://www.w3.org/WAI/wcag2AAA" alt="Level AAA conformance,W3C WAI Web Content Accessibility Guidelines 2.0">
+		</a>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>	
